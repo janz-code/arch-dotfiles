@@ -1,0 +1,19 @@
+[general]
+import = [
+	"~/.config/alacritty/catppuccin-frappe.toml"
+]
+[env]
+TERM = "xterm-256color"
+WINIT_X11_SCALE_FACTOR = "1.0"
+[window]
+padding = { x = 2, y = 1 }
+decorations = "None"
+blur = true
+[font]
+normal = { family = "Iosevka Term Nerd Font", style = "normal" }
+bold = { family = "Iosevka Term Nerd Font", style = "bold" }
+size = 12
+[selection]
+save_to_clipboard = true
+[terminal]
+shell = { program = "/bin/zsh", args = ["-1"] }
