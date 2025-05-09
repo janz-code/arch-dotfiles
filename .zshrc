@@ -117,3 +117,7 @@ export LANG=en_US.UTF-8
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# dotnet
+export DOTNET_ROOT=$(pwd)/.dotnet
+export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
