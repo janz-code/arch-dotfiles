@@ -97,7 +97,7 @@ for vt in range(1, 8):
     )
 
 
-groups = [Group(i) for i in "123456789"]
+groups = [Group(i) for i in "1234567890"]
 
 for i in groups:
     keys.extend(
@@ -124,7 +124,7 @@ for i in groups:
     )
 
 layouts = [
-    layout.Columns(margin=2, margin_on_single=4, border_focus="#00000000", border_normal="#00000000"),
+    layout.Columns(border_focus="#00000000", border_normal="#00000000"),
     layout.Max(),
     # Try more layouts by unleashing below layouts.
     # layout.Stack(num_stacks=2),
@@ -140,9 +140,9 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font="JetBrainsMonoNerdFont-Regular",
     fontsize=12,
-    padding=3,
+    padding=0,
 )
 extension_defaults = widget_defaults.copy()
 
